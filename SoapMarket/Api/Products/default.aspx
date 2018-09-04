@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="new_product.aspx.cs" Inherits="SoapMarket.api.new_product" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="SoapMarket.Api.Products._default" %>
 
 <!DOCTYPE html>
 
@@ -9,11 +9,8 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+        <h1>Get out of here!</h1>
     </div>
     </form>
-    <script>
-        window.location = "../admin.aspx";
-    </script>
 </body>
 </html>

@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Api\Products\default.aspx" />
     <Content Include="html\_Layout.cshtml" />
     <Content Include="admin.cshtml" />
     <Content Include="cart.cshtml" />
@@ -70,19 +71,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="about.cshtml" />
-    <Content Include="api\new_product.aspx" />
     <Content Include="css\jumbotron.css" />
     <None Include="index.cshtml" />
     <Content Include="js\home.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="api\new_product.aspx.cs">
-      <DependentUpon>new_product.aspx</DependentUpon>
+    <Compile Include="Api\Products\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="api\new_product.aspx.designer.cs">
-      <DependentUpon>new_product.aspx</DependentUpon>
+    <Compile Include="Api\Products\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
